@@ -93,6 +93,12 @@ const LayerDetail = () => {
               )}
 
               <p className="text-muted-foreground leading-relaxed text-sm sm:text-lg">{content.details}</p>
+              
+              {content.additionalInfo && (
+                <div className="mt-6 bg-primary/5 border border-primary/20 rounded-lg p-4">
+                  <p className="text-foreground text-sm sm:text-base leading-relaxed">{content.additionalInfo}</p>
+                </div>
+              )}
             </div>
           </div>
 
