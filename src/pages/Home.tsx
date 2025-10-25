@@ -18,8 +18,9 @@ const Home = () => {
             Where Vision Meets Reality
           </h2>
           <p className="text-lg sm:text-xl text-muted-foreground max-w-3xl mx-auto leading-relaxed">
-            Journey through the layers of Prince Mohamed Ali Tawfik's masterpiece on Manial Island, 
-            from his written inspirations to the living legacy of sustainable heritage preservation.
+            Journey through the layers of Prince Mohamed Ali Tewfik's masterpiece on Manial Island, 
+            from his written inspirations in L'Art Arabe to the living legacy of sustainable heritage preservation. 
+            Discover the documented connections between historical references and architectural reality.
           </p>
         </div>
 

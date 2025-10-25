@@ -1,6 +1,8 @@
 import { useParams, useNavigate } from 'react-router-dom';
 import { Header } from '@/components/Header';
 import { layers } from '@/data/layers';
+import { getComparisonsForLayer } from '@/data/bookComparisons';
+import { BookComparison } from '@/components/BookComparison';
 import { BookOpen, Leaf, ArrowRight } from 'lucide-react';
 import { useEffect } from 'react';
 
@@ -31,6 +33,7 @@ const LayerDetail = () => {
 
   const Icon = layer.icon;
   const content = layer.content;
+  const bookComparisons = getComparisonsForLayer(layerId || '');
 
   return (
     <div className="min-h-screen bg-gradient-to-br from-background via-background to-muted">
@@ -100,6 +103,13 @@ const LayerDetail = () => {
                 </div>
               )}
             </div>
+
+            {/* Book Comparisons Section */}
+            {bookComparisons.length > 0 && (
+              <div className="bg-glass rounded-xl p-6 sm:p-8 animate-fade-in">
+                <BookComparison comparisons={bookComparisons} />
+              </div>
+            )}
           </div>
 
           {/* Sidebar */}
