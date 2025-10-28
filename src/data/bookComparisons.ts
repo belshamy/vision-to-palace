@@ -1,3 +1,9 @@
+import palaceResidentialExterior from '@/assets/palace-residential-exterior.jpg';
+import palaceGardenPavilion from '@/assets/palace-garden-pavilion.jpg';
+import palaceMosqueExterior from '@/assets/palace-mosque-exterior.jpg';
+import palaceEntranceDetail from '@/assets/palace-entrance-detail.jpg';
+import palaceMosqueMinaret from '@/assets/palace-mosque-minaret.jpg';
+
 export interface BookReference {
   plate: string;
   source: string;
@@ -32,35 +38,35 @@ export const bookComparisons: LayerBookComparisons[] = [
         source: 'Gama Barqouq',
         description: 'Main door design of Residential Palace (Haramlik) inspired by Barqouq Mosque ornamental patterns',
         bookImageUrl: 'https://images.unsplash.com/photo-1524995997946-a1c2e315a42f?w=800&q=80',
-        palaceImageUrl: 'https://images.unsplash.com/photo-1591825729269-caeb344f6df2?w=800&q=80'
+        palaceImageUrl: palaceEntranceDetail
       },
       {
         plate: 'PL.LXXXVIII',
         source: 'Mimbar de la Qeycoun',
         description: 'Intricate woodwork patterns from historic mimbar adapted for palace entrance',
         bookImageUrl: 'https://images.unsplash.com/photo-1524995997946-a1c2e315a42f?w=800&q=80',
-        palaceImageUrl: 'https://images.unsplash.com/photo-1591825729269-caeb344f6df2?w=800&q=80'
+        palaceImageUrl: palaceResidentialExterior
       },
       {
         plate: 'PL.C',
         source: 'Gama Sid Youcouf - Elmaz',
         description: 'Architectural elements and proportions from Mamluk-era mosque',
         bookImageUrl: 'https://images.unsplash.com/photo-1524995997946-a1c2e315a42f?w=800&q=80',
-        palaceImageUrl: 'https://images.unsplash.com/photo-1591825729269-caeb344f6df2?w=800&q=80'
+        palaceImageUrl: palaceMosqueExterior
       },
       {
         plate: 'PL.CVIII',
         source: 'Mihrab de la Mosquée de Cheykhoun',
         description: 'Exterior facade decoration next to main door inspired by mihrab ornamental designs',
         bookImageUrl: 'https://images.unsplash.com/photo-1524995997946-a1c2e315a42f?w=800&q=80',
-        palaceImageUrl: 'https://images.unsplash.com/photo-1591825729269-caeb344f6df2?w=800&q=80'
+        palaceImageUrl: palaceGardenPavilion
       },
       {
         plate: 'PL.XCIV',
         source: 'Compartiments et Bordures de Bois Assemblés',
         description: 'Wooden assembly techniques and geometric patterns for exterior facades',
         bookImageUrl: 'https://images.unsplash.com/photo-1524995997946-a1c2e315a42f?w=800&q=80',
-        palaceImageUrl: 'https://images.unsplash.com/photo-1591825729269-caeb344f6df2?w=800&q=80'
+        palaceImageUrl: palaceMosqueMinaret
       }
     ]
   },
