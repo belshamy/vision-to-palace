@@ -3,6 +3,11 @@ import palaceGardenPavilion from '@/assets/palace-garden-pavilion.jpg';
 import palaceMosqueExterior from '@/assets/palace-mosque-exterior.jpg';
 import palaceEntranceDetail from '@/assets/palace-entrance-detail.jpg';
 import palaceMosqueMinaret from '@/assets/palace-mosque-minaret.jpg';
+import palaceMihrabInterior from '@/assets/palace-mihrab-interior.jpg';
+import palaceCalligraphyPanel from '@/assets/palace-calligraphy-panel.jpg';
+import palaceCeilingPattern from '@/assets/palace-ceiling-pattern.jpg';
+import palaceThroneHall from '@/assets/palace-throne-hall.jpg';
+import palaceFountainRoom from '@/assets/palace-fountain-room.jpg';
 
 export interface BookReference {
   plate: string;
@@ -78,56 +83,56 @@ export const bookComparisons: LayerBookComparisons[] = [
         source: 'Faïences Murales',
         description: 'Ceramic tile work patterns for Residential Saray interior walls',
         bookImageUrl: 'https://images.unsplash.com/photo-1524995997946-a1c2e315a42f?w=800&q=80',
-        palaceImageUrl: 'https://images.unsplash.com/photo-1609137144813-7d9921338f24?w=800&q=80'
+        palaceImageUrl: palaceMihrabInterior
       },
       {
         plate: 'PL.CXX',
         source: 'Faïences Murales de la Mosquée d\'Ibrahym Agha',
         description: 'Throne Hall ceramic tile designs inspired by Ibrahim Agha Mosque',
         bookImageUrl: 'https://images.unsplash.com/photo-1524995997946-a1c2e315a42f?w=800&q=80',
-        palaceImageUrl: 'https://images.unsplash.com/photo-1609137144813-7d9921338f24?w=800&q=80'
+        palaceImageUrl: palaceThroneHall
       },
       {
         plate: 'PL.CXXII',
         source: 'Mosquée d\'Ibrahym Agha',
         description: 'Additional decorative elements from Ibrahim Agha Mosque for Residential Saray',
         bookImageUrl: 'https://images.unsplash.com/photo-1524995997946-a1c2e315a42f?w=800&q=80',
-        palaceImageUrl: 'https://images.unsplash.com/photo-1609137144813-7d9921338f24?w=800&q=80'
+        palaceImageUrl: palaceCalligraphyPanel
       },
       {
         plate: 'PL.CXXI',
         source: 'Mosquée d\'Ibrahym Agha',
         description: 'Ornamental ceiling and wall patterns for residential halls',
         bookImageUrl: 'https://images.unsplash.com/photo-1524995997946-a1c2e315a42f?w=800&q=80',
-        palaceImageUrl: 'https://images.unsplash.com/photo-1609137144813-7d9921338f24?w=800&q=80'
+        palaceImageUrl: palaceCeilingPattern
       },
       {
         plate: 'PL.CXXXI',
         source: 'Couronnement de la Porte du Mimbar de Gama Sysaryeh',
         description: 'Doorway crown and decorative arch designs for Residential Saray',
         bookImageUrl: 'https://images.unsplash.com/photo-1524995997946-a1c2e315a42f?w=800&q=80',
-        palaceImageUrl: 'https://images.unsplash.com/photo-1609137144813-7d9921338f24?w=800&q=80'
+        palaceImageUrl: palaceFountainRoom
       },
       {
         plate: 'PL.LXIX',
         source: 'Mosquée d\'El-Bordeyny',
         description: 'The Prince\'s Office design elements inspired by El-Bordeyny Mosque',
         bookImageUrl: 'https://images.unsplash.com/photo-1524995997946-a1c2e315a42f?w=800&q=80',
-        palaceImageUrl: 'https://images.unsplash.com/photo-1609137144813-7d9921338f24?w=800&q=80'
+        palaceImageUrl: palaceThroneHall
       },
       {
         plate: 'PL.LXXVII',
         source: 'Mosquée Cathédrale de Qous',
         description: 'Cathedral mosque patterns adapted for Residential Saray spaces',
         bookImageUrl: 'https://images.unsplash.com/photo-1524995997946-a1c2e315a42f?w=800&q=80',
-        palaceImageUrl: 'https://images.unsplash.com/photo-1609137144813-7d9921338f24?w=800&q=80'
+        palaceImageUrl: palaceFountainRoom
       },
       {
         plate: 'PL.LXXII',
         source: 'Maison Appelée Beyt El-Tcheleby',
         description: 'Residential house decorative elements for palace interior design',
         bookImageUrl: 'https://images.unsplash.com/photo-1524995997946-a1c2e315a42f?w=800&q=80',
-        palaceImageUrl: 'https://images.unsplash.com/photo-1609137144813-7d9921338f24?w=800&q=80'
+        palaceImageUrl: palaceCeilingPattern
       }
     ]
   },
