@@ -8,6 +8,7 @@ import palaceCalligraphyPanel from '@/assets/palace-calligraphy-panel.jpg';
 import palaceCeilingPattern from '@/assets/palace-ceiling-pattern.jpg';
 import palaceThroneHall from '@/assets/palace-throne-hall.jpg';
 import palaceFountainRoom from '@/assets/palace-fountain-room.jpg';
+import palaceGardenPathway from '@/assets/palace-garden-pathway.jpg';
 
 export interface BookReference {
   plate: string;
@@ -156,7 +157,7 @@ export const bookComparisons: LayerBookComparisons[] = [
         source: 'Palace Mosque',
         description: 'The palace mosque design integrating harmoniously with garden layouts, inspired by traditional Islamic garden-mosque relationships',
         bookImageUrl: 'https://images.unsplash.com/photo-1524995997946-a1c2e315a42f?w=800&q=80',
-        palaceImageUrl: 'https://images.unsplash.com/photo-1585320806297-9794b3e4eeae?w=800&q=80'
+        palaceImageUrl: palaceGardenPathway
       }
     ]
   }
