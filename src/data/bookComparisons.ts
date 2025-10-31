@@ -9,6 +9,14 @@ import palaceCeilingPattern from '@/assets/palace-ceiling-pattern.jpg';
 import palaceThroneHall from '@/assets/palace-throne-hall.jpg';
 import palaceFountainRoom from '@/assets/palace-fountain-room.jpg';
 import palaceGardenPathway from '@/assets/palace-garden-pathway.jpg';
+import palaceEntranceOrnate from '@/assets/palace-entrance-ornate.jpg';
+import palaceMosqueGoldenHour from '@/assets/palace-mosque-golden-hour.jpg';
+import palaceResidentialWide from '@/assets/palace-residential-wide.jpg';
+import palaceThroneInterior from '@/assets/palace-throne-interior.jpg';
+import palaceMosqueFacade from '@/assets/palace-mosque-facade.jpg';
+import palaceFacadeDramatic from '@/assets/palace-facade-dramatic.jpg';
+import palaceEntranceGateway from '@/assets/palace-entrance-gateway.jpg';
+import palaceTowerPerspective from '@/assets/palace-tower-perspective.jpg';
 
 export interface BookReference {
   plate: string;
@@ -44,35 +52,35 @@ export const bookComparisons: LayerBookComparisons[] = [
         source: 'Gama Barqouq',
         description: 'Main door design of Residential Palace (Haramlik) inspired by Barqouq Mosque ornamental patterns',
         bookImageUrl: 'https://images.unsplash.com/photo-1524995997946-a1c2e315a42f?w=800&q=80',
-        palaceImageUrl: palaceEntranceDetail
+        palaceImageUrl: palaceEntranceOrnate
       },
       {
         plate: 'PL.LXXXVIII',
         source: 'Mimbar de la Qeycoun',
         description: 'Intricate woodwork patterns from historic mimbar adapted for palace entrance',
         bookImageUrl: 'https://images.unsplash.com/photo-1524995997946-a1c2e315a42f?w=800&q=80',
-        palaceImageUrl: palaceResidentialExterior
+        palaceImageUrl: palaceResidentialWide
       },
       {
         plate: 'PL.C',
         source: 'Gama Sid Youcouf - Elmaz',
         description: 'Architectural elements and proportions from Mamluk-era mosque',
         bookImageUrl: 'https://images.unsplash.com/photo-1524995997946-a1c2e315a42f?w=800&q=80',
-        palaceImageUrl: palaceMosqueExterior
+        palaceImageUrl: palaceMosqueGoldenHour
       },
       {
         plate: 'PL.CVIII',
         source: 'Mihrab de la Mosquée de Cheykhoun',
         description: 'Exterior facade decoration next to main door inspired by mihrab ornamental designs',
         bookImageUrl: 'https://images.unsplash.com/photo-1524995997946-a1c2e315a42f?w=800&q=80',
-        palaceImageUrl: palaceGardenPavilion
+        palaceImageUrl: palaceFacadeDramatic
       },
       {
         plate: 'PL.XCIV',
         source: 'Compartiments et Bordures de Bois Assemblés',
         description: 'Wooden assembly techniques and geometric patterns for exterior facades',
         bookImageUrl: 'https://images.unsplash.com/photo-1524995997946-a1c2e315a42f?w=800&q=80',
-        palaceImageUrl: palaceMosqueMinaret
+        palaceImageUrl: palaceTowerPerspective
       }
     ]
   },
@@ -91,7 +99,7 @@ export const bookComparisons: LayerBookComparisons[] = [
         source: 'Faïences Murales de la Mosquée d\'Ibrahym Agha',
         description: 'Throne Hall ceramic tile designs inspired by Ibrahim Agha Mosque',
         bookImageUrl: 'https://images.unsplash.com/photo-1524995997946-a1c2e315a42f?w=800&q=80',
-        palaceImageUrl: palaceThroneHall
+        palaceImageUrl: palaceThroneInterior
       },
       {
         plate: 'PL.CXXII',
